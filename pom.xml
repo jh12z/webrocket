@@ -1,0 +1,44 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.codeattic</groupId>
+	<artifactId>webrocket</artifactId>
+	<version>0.1.0</version>
+	<packaging>jar</packaging>
+
+	<description>WebRocket - Minimalistic web framework</description>
+	<inceptionYear>2011</inceptionYear>
+
+	<scm>
+		<connection>scm:git:https://github.com/jh12z/webrocket.git</connection>
+		<developerConnection>scm:git:git@github.com:jh12z/webrocket.git</developerConnection>
+		<url>https://github.com/jh12z/webrocket</url>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.2.2</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.1</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+	<developers>
+		<developer>
+			<name>Juan Hernandez</name>
+		</developer>
+	</developers>
+</project>
